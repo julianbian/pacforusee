@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     if (host == "git.useepay.com") {
-        return "PROXY 54.222.174.222:1701";
+        return "PROXY 54.222.174.222";
     } else {
         return "DIRECT";
     }
